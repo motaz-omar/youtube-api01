@@ -1,5 +1,5 @@
 fetch(
-  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC8butISFwT-Wl7EV0hUK0BQ&order=date&key=AIzaSyC5BilnxYvPKTDdIMOhovzQpHHQlnPjVF0"
+  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC8butISFwT-Wl7EV0hUK0BQ&maxResults=10&order=date&key=AIzaSyC5BilnxYvPKTDdIMOhovzQpHHQlnPjVF0"
 )
   .then((result) => {
     return result.json();
