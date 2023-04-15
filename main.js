@@ -6,9 +6,9 @@ fetch(
   })
   .then((data) => {
     let videos = data.items;
-    let videoContainez = document.querySelector("#main");
+    let videoscontainer = document.querySelector("#main");
     for (video of videos) {
-      videoContainez.innerHTML += `
+      videoscontainer.innerHTML += `
       <article class="video">
       
       
